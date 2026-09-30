@@ -1,3 +1,7 @@
+.hide {
+  display: none !important;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -7,7 +11,7 @@ body {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .section-title {
@@ -19,9 +23,26 @@ body {
 }
 
 .container {
-  width: 1158px;
-  padding: 0 15px;
+  max-width: 320px;
+  padding: 0 16px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
+
+  .section {
+    padding: 120px 0;
+  }
 }
 
 h1,
