@@ -134,7 +134,6 @@
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 72px 24px;
-    padding: 0 108px;
   }
   .footer-info {
     width: 264px;
@@ -163,6 +162,12 @@
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157.98px) {
+  .footer .container {
+    padding: 0 108px;
+  }
+}
+
 @media screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
@@ -170,7 +175,6 @@
 
   .footer .container {
     column-gap: 0;
-    padding: 0 15px;
   }
 
   .footer-info {
