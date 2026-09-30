@@ -98,16 +98,17 @@
 }
 
 .mobile-menu-socials-link {
-  display: block;
-  width: 40px;
-  height: 40px;
-  color: #4d5ae5;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu-socials-link:hover,
 .mobile-menu-socials-link:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 @media only screen and (min-width: 768px) {
